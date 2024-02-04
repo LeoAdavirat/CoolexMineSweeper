@@ -3,11 +3,13 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: {
-      color: {
-        "dark-bar": "#0b1b28",
+      colors: {
+        "dark-bar": "#192639",
+        "dark-body": "#050d1a",
       },
       fontFamily: {
-        mono: "JetBrainsMono",
+        jetbrain: ["JetBrains Mono", "monospace"],
+        protestriot: ["Protest Riot", "sans-serif"],
       },
     },
   },

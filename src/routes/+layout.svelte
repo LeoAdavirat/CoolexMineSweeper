@@ -3,7 +3,6 @@
 </script>
 
 <slot />
-
 <!-- <style>
   :global(body) {
     background: #778899;
